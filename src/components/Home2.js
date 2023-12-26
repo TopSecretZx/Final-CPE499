@@ -12,7 +12,7 @@ function Home2() {
                 LET ME <span className="purple"> INTRODUCE </span> THIS WEBPAGE
               </h1>
               <p className="home-about-body">
-              This webpage is the midterm project for the CPE499 course, "React Js."
+              This webpage is the Final project for the CPE499 course, "React Js."
                 <br />
                 <br />I created this webpage using
                 <i>
@@ -20,13 +20,7 @@ function Home2() {
                 </i>
                 <br />
                 <br />
-                Finally, this webpage is &nbsp;
-                <i>
-                  <b className="purple"> just a part </b> of what I am developing for the{" "}
-                  <b className="purple">
-                  Final project.
-                  </b>
-                </i>
+               
                 
               </p>
             </Col>

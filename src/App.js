@@ -9,17 +9,21 @@ import {
 import Scroll from './components/Scroll';
 import "./style.css"
 import "bootstrap/dist/css/bootstrap.min.css";
+import About from "./components/About";
+import NavBar from './components/Navbar';
+
 
 function App() {
  
 
   return (
     <Router>
-      <div >
+      <div>
+        <NavBar /> 
         <Scroll />
         <Routes>
-          <Route path="/" element={<Home />} />
-          {/* <Route path="/about" element={<About />} /> เขียนไว้ทำต่อตอนไฟนอล */}
+        <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
       </div>
